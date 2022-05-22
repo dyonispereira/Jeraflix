@@ -1,0 +1,79 @@
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1;
+  height: 100vh;
+  background: url(https://wallpapercave.com/wp/wp4286137.jpg);
+  background-size: cover;
+  
+  /*background: rgb(9, 47, 128);*/
+  /*background: radial-gradient(circle, rgb(245, 9, 9) 0%, rgb(255, 9, 9)  0%, rgb(180, 1, 1) 100%);*/
+  
+}
+   
+h1{
+  text-align: center;
+  color: red;
+  font-size: 30;
+  
+}
+
+.divider {
+ height: 400px;
+ width: 400px;
+ margin: 5%;
+ padding:5%;
+
+ background-color: rgb(10, 10, 20, 0.300);
+ box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.700);
+ border-radius: 2%;
+}
+input  {
+  width: 100%;
+  height: 46px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(75, 92, 89);
+  color: #fff;
+
+}
+
+input:focus {
+
+  border-bottom: 2px solid #26a96a;
+  box-shadow: 0 1px 0 0 #26a96a;
+}
+label {
+  position: absolute;
+
+  color: #fff;
+  transform: translateY(18);
+  transition: .25s  ease-in-out;
+}
+
+
+input:focus +label {
+  transform: translateY(-14) scale(.8);
+  color: #26a96a;
+}
+
+
+input::placeholder {
+  color: transparent;
+}
+button {
+  padding: 10px 70px;
+  margin: 20px;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+}
+

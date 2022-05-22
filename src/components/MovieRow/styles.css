@@ -1,0 +1,74 @@
+.movieRow{
+    margin-bottom: 30px;
+}
+
+.movieRow h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.movieRow--listarea {
+    overflow-x : hidden;
+    padding-left: 20px;
+    
+}
+
+.movieRow--list {
+    transition : all ease 0.6s;/*Velocidade da transição da lista*/
+}
+
+.movieRow--item{/*Lista de filmes*/
+    display:inline-block;
+    width:130px;
+    cursor: pointer;
+    
+}
+
+.movieRow--item img{
+   width: 100%;
+   transform: scale(0.9);
+   transition : all ease 0.2s;
+   
+}
+
+
+.movieRow--item img:hover{
+    transform: scale(1);
+ }
+
+
+ /*Estilo das Setas*/
+ .movieRow-left,
+ .movieRow-right {
+    position:absolute;   
+    width: 40px;
+    height: 190px;/*Tamando das setas*/
+    background-color:rgba(0,0,0,0.6);
+    z-index: 99;/*Posicionamento setas*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;/*Tira espaço extras setas*/
+    cursor:pointer;
+    opacity: 0;
+    transition : all ease 0.2s;
+}
+
+.movieRow-left{
+    left: 0;
+}
+
+.movieRow-right{
+   right: 0;
+}
+/*Efeito para aparecer as setas apenas na hora que passar o mouse nas listas de filmes*/
+.movieRow:hover .movieRow-left,
+.movieRow:hover .movieRow-right{
+   opacity: 1;
+}
+/*  Para */
+@media (max-width: 760px){
+    .movieRow-left,
+    .movieRow-right {
+    opacity: 1;
+    }
+}
