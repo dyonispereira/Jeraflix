@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-https://github.com/dyonispereira/Jeraflix/blob/master/Tela%20de%20Login.png
+[This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/dyonispereira/Jeraflix/blob/master/Tela%20de%20Login.png](https://github.com/dyonispereira/Jeraflix/blob/master/Tela%20de%20Login.png?raw=true)
 
 ## Available Scripts
 
