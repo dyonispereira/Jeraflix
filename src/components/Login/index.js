@@ -33,7 +33,7 @@ export default ()=> {
             </div>
 
             <button className="button" // Link do botão para Pagina Principal dos Filmes
-            onClick={() =>navigate('/Principal')}>
+         onClick={() =>navigate('/components/Principal')}>
               Login</button>
           </div>
           
